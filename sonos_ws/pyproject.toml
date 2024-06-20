@@ -10,6 +10,9 @@ packages = [{include = "sonos_ws"}]
 python = "^3.11"
 websockets = "^10.4"
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
