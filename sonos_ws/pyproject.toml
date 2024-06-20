@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sonos-ws"
+version = "0.1.0"
+description = "Library for interacting with Sonos speakers over Home Assistant's Websocket API."
+authors = ["James Stevens <james@jstevens.co.uk>"]
+readme = "README.md"
+packages = [{include = "sonos_ws"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websockets = "^10.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
